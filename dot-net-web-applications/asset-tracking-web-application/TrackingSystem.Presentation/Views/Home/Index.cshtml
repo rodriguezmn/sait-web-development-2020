@@ -1,0 +1,47 @@
+﻿@model IEnumerable<TrackingSystem.Presentation.Models.HomeViewModel>
+@{
+    ViewBag.Title = "Home Page - Phoenix IT Inc.";
+}
+
+
+<h4>Show assets by Asset Type</h4>
+<hr />
+<table class="table table-borderless col-sm-3">
+    
+    <tr>
+        <td>
+            <select id="assetTypesDropDown" asp-items="@ViewBag.AssetTypes" class="form-control"></select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button id="assetsFilteringButton" type="button" class="btn btn-primary">Show Assets</button>
+        </td>
+    </tr>
+</table>
+
+<div id="assetsDisplayDivContainer">
+    @await Component.InvokeAsync("AssetsByType", 0)
+</div>
+
+@section Scripts{
+
+    <script>
+        
+        $(document).ready(function () {
+            $("#assetsFilteringButton").click(function () {
+                var assetTypeID = $("#assetTypesDropDown").val();
+
+                $.ajax({ 
+                    method: 'GET', 
+                    url: '/Home/GetAssetsByType', 
+                    data: { id: assetTypeID } 
+                }).done(function (result, statusText, xhdr) {
+                    $("#assetsDisplayDivContainer").html(result);
+                });
+            });
+        });
+    </script>
+}
+
+

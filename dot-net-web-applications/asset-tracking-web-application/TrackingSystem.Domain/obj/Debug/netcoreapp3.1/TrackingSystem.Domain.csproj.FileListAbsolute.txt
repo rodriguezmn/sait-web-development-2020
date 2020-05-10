@@ -1,0 +1,9 @@
+C:\Users\Marlon\Desktop\ASP .NET course\assignment-2\main-application\TrackingSystem\TrackingSystem.Domain\bin\Debug\netcoreapp3.1\TrackingSystem.Domain.deps.json
+C:\Users\Marlon\Desktop\ASP .NET course\assignment-2\main-application\TrackingSystem\TrackingSystem.Domain\bin\Debug\netcoreapp3.1\TrackingSystem.Domain.dll
+C:\Users\Marlon\Desktop\ASP .NET course\assignment-2\main-application\TrackingSystem\TrackingSystem.Domain\bin\Debug\netcoreapp3.1\TrackingSystem.Domain.pdb
+C:\Users\Marlon\Desktop\ASP .NET course\assignment-2\main-application\TrackingSystem\TrackingSystem.Domain\obj\Debug\netcoreapp3.1\TrackingSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Marlon\Desktop\ASP .NET course\assignment-2\main-application\TrackingSystem\TrackingSystem.Domain\obj\Debug\netcoreapp3.1\TrackingSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\Marlon\Desktop\ASP .NET course\assignment-2\main-application\TrackingSystem\TrackingSystem.Domain\obj\Debug\netcoreapp3.1\TrackingSystem.Domain.AssemblyInfo.cs
+C:\Users\Marlon\Desktop\ASP .NET course\assignment-2\main-application\TrackingSystem\TrackingSystem.Domain\obj\Debug\netcoreapp3.1\TrackingSystem.Domain.dll
+C:\Users\Marlon\Desktop\ASP .NET course\assignment-2\main-application\TrackingSystem\TrackingSystem.Domain\obj\Debug\netcoreapp3.1\TrackingSystem.Domain.pdb
+C:\Users\Marlon\Desktop\ASP .NET course\assignment-2\main-application\TrackingSystem\TrackingSystem.Domain\obj\Debug\netcoreapp3.1\TrackingSystem.Domain.csprojAssemblyReference.cache
