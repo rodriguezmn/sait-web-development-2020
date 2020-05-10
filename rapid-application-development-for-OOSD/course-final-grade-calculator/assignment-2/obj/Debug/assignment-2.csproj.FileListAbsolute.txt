@@ -1,0 +1,10 @@
+C:\Users\Marlon\Desktop\repos\rapid-application-development\assignments\major-assignment-2\assignment-2\assignment-2\bin\Debug\assignment-2.exe.config
+C:\Users\Marlon\Desktop\repos\rapid-application-development\assignments\major-assignment-2\assignment-2\assignment-2\bin\Debug\assignment-2.exe
+C:\Users\Marlon\Desktop\repos\rapid-application-development\assignments\major-assignment-2\assignment-2\assignment-2\bin\Debug\assignment-2.pdb
+C:\Users\Marlon\Desktop\repos\rapid-application-development\assignments\major-assignment-2\assignment-2\assignment-2\obj\Debug\assignment_2.mainForm.resources
+C:\Users\Marlon\Desktop\repos\rapid-application-development\assignments\major-assignment-2\assignment-2\assignment-2\obj\Debug\assignment_2.Properties.Resources.resources
+C:\Users\Marlon\Desktop\repos\rapid-application-development\assignments\major-assignment-2\assignment-2\assignment-2\obj\Debug\assignment-2.csproj.GenerateResource.cache
+C:\Users\Marlon\Desktop\repos\rapid-application-development\assignments\major-assignment-2\assignment-2\assignment-2\obj\Debug\assignment-2.csproj.CoreCompileInputs.cache
+C:\Users\Marlon\Desktop\repos\rapid-application-development\assignments\major-assignment-2\assignment-2\assignment-2\obj\Debug\assignment-2.exe
+C:\Users\Marlon\Desktop\repos\rapid-application-development\assignments\major-assignment-2\assignment-2\assignment-2\obj\Debug\assignment-2.pdb
+C:\Users\Marlon\Desktop\repos\rapid-application-development\assignments\major-assignment-2\assignment-2\assignment-2\obj\Debug\assignment-2.csprojAssemblyReference.cache
