@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<!--    Travel Website home page
+        Fictional company: Surff, Inc.
+        Author: Marlon R.
+        Date:  February 24, 2020 
+        Front-end web development
+        Final assingment   
+
+        The Register webpage is composed of the following sections:
+        - logo-navigation (same as in index.html) 
+        - message
+        - form
+        - footer
+-->
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/register.css">
+    <!-- Google Font used for the website: Montserrat light 300. Retrieved from: https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat:300 -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
+    <!--Font icon used for logo, see <i> element in logo class below. Retrieved from: https://fontawesome.com/icons/wind-->
+    <script src="https://kit.fontawesome.com/be5cfc05f9.js" crossorigin="anonymous"></script>
+
+    
+    <title>Register</title>
+
+</head>
+
+
+<body>
+    
+    <!-- logo-navigation  -->
+    <div class="logo-navigation">
+        <div class="logo">
+            <a href="index.html" > 
+                <i class="fas fa-wind"></i>
+            </a>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>    
+
+    <!-- message  -->
+    <div class="message">
+        <h1>Sign up for great travel deals</h1>
+    </div>
+
+    <!-- form  -->
+    <div class="form-container">  
+        <!-- data is sent using POST method, this way the data is appended to the body of the HTTP request 
+        required property means that the form field has to be provided for the form to be sent
+        pattern specifies the characteristics with wich the field has to comply 
+        required field in the form are shown in red if they are not filled
+        required fields are marked with an * beside its name
+    
+        required fields text fields are surrounded in light red 
+        when a text field is in focus, its background is gray
+        if the text field is not complying with its pattern requirements, it stays surrounded in red-->
+        <form class="form" action="#form-submit" method="post" >
+
+            <p>
+            <label for="name">Full Name *</label>
+            <input type="text" name="name" id="name" required pattern="[a-zA-z\s]+">
+            </p>
+
+            <p>
+            <label for="email">Email *</label>
+            <input type="email" name="email" id="email" required>
+            </p>
+
+            <p>
+            <label for="password">Password(at least 8 characters) *</label>
+            <input type="text" name="password" id="password" minlength="8" required pattern="[a-zA-Z0-9]+">
+            </p>
+
+            <p>
+            <label for="street-address">Street Address *</label>
+            <input type="text" name="street-address" id="street-address" required pattern="[a-zA-Z0-9\s]+">
+            </p>
+
+            <p>
+            <label for="unit">Unit</label>
+            <input type="number" name="unit" id="unit">
+            </p>
+
+            <p>
+            <label for="city">City *</label>
+            <input type="text" name="city" id="city" required pattern="[a-zA-Z\s]+">
+            </p>
+
+            <p>
+            <label for="province">Province *</label>
+            <input type="text" name="province" id="province" required pattern="[a-zA-Z\s]+">
+            </p>
+
+            <p>
+            <label for="postal-code">Postal Code *</label>
+            <input type="text" name="postal-code" id="postal-code" required pattern="[a-zA-Z][0-9][a-zA-Z][0-9][a-zA-Z][0-9]">
+            </p>
+
+            <p class="full-width">
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea></p>
+            
+            <p class="button">
+            <input type="submit" name="submit" value="Send">
+            </p>
+
+        </form>
+
+    </div>   
+
+    <!-- footer  -->
+    <div class="footer">
+        <br>&copy; 2020 Marlon R.
+    </div>
+
+    
+    
+</body>
+
+</html>

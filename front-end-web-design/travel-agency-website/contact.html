@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<!--    Travel Website home page
+        Fictional company: Surff, Inc.
+        Author: Marlon R.
+        Date:  February 24, 2020 
+        Front-end web development cprg210
+        Individual HTML/CSS/Javascript Assignment 
+
+        The Contact webpage is composed of the following sections: 
+        - logo-navigation (same as in index.html) 
+        - contact-message 
+        - team
+        - footer  
+        
+        *The team section is a flex container with two flex items forming company contact info and team members.
+        Theses two flex items are also flex containers   
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- Google Font used for the website: Montserrat light 300. Retrieved from: https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat:300 -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
+    <!--Font icon used for logo, see <i> element in logo class below. Retrieved from: https://fontawesome.com/icons/wind-->
+    <script src="https://kit.fontawesome.com/be5cfc05f9.js" crossorigin="anonymous"></script>
+
+    <title>Contact</title>
+
+</head>
+
+<body>
+
+    <!-- logo-navigation    -->
+    <div class="logo-navigation">
+        <div class="logo">
+            <a href="index.html" > 
+                <i class="fas fa-wind"></i>
+            </a>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>  
+
+
+    <!-- contact-message -->
+    <div class="contact-message">
+        <h1>Contact us</h1>
+    </div>
+
+
+    <!-- team -->
+    <div class="team">
+        
+        <div class="contact">
+
+            <div class="coordinates">
+                <!-- Icons' codes for phone an email where obtained at: https://www.toptal.com/designers/htmlarrows/ -->
+                <ul>
+                    <li>Australia Square<br>
+                        264 George Street<br>
+                        Sydney NSW 2000</li>
+                    <li>Monday - Friday <br> 8:00 am - 5:00 pm</li>
+                    <li>&#x2706; +(61) 2 9251 5988</li>
+                    <li>&#x2709; <a class="email" href="mailto:hello@surff.io">hello@surff.io</a></li>  
+                </ul>
+            </div>
+
+            <div class="map">
+                <!-- this link is provide by google maps for the specific address to be embedded on websites -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.196486773205!2d151.2073703425571!3d-33.86507744513515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae41a47511c3%3A0x4c3837d5dbbcb6b6!2sAustralia%20Square%2C%20264%20George%20St%2C%20Sydney%20NSW%202000%2C%20Australia!5e0!3m2!1sen!2sca!4v1583004122713!5m2!1sen!2sca" width="600" height="450" allowfullscreen=""></iframe> 
+            </div>
+
+        </div>
+
+        <div class="members">
+            <!-- Free avatars were downloaded from: https://getavataaars.com/ -->
+            <div>
+                <img src="images/profile-pictures/avataaars-2.png" alt="">
+                <p><strong>Phil Harmonic</strong><br>President<br><br>+(61) 2 9251 5988, 1231</p>
+            </div>
+
+            <div>
+                <img src="images/profile-pictures/avataaars-3.png" alt="">
+                <p><strong>Sue Vaneer</strong><br>Coorporate Travel Advisor<br><br>+(61) 2 9251 5988, 1232</p>
+            </div>
+
+            <div>
+                <img src="images/profile-pictures/avataaars-1.png" alt="">
+                <p><strong>Tom Atoe</strong><br>Personal Travel Advisor<br><br>+(61) 2 9251 5988, 1233</p>
+            </div>
+
+            <div>
+                <img src="images/profile-pictures/avataaars.png" alt="">
+                <p><strong>Marge Arita</strong><br>Personal Travel Advisor<br><br>+(61) 2 9251 5988, 1234</p>
+            </div>
+             
+        </div>
+
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer">
+        <br>&copy; 2020 Marlon R.
+    </div> 
+
+
+</body>
+
+</html>

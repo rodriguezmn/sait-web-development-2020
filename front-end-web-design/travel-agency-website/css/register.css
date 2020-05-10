@@ -1,0 +1,150 @@
+/* Travel Website home page
+Fictional company: Surff, Inc.
+Author: Marlon R.
+Date:  February 24, 2020 
+Front-end web development cprg210
+Individual HTML/CSS/Javascript Assignment */
+
+
+body{
+    margin: 0;
+    background-color: #f8f8f8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* logo-navigation 
+A flexbox was used for the logo-navigation section
+space-between property keeps logo and navigation at oposite sides of the viewport*/
+
+.logo-navigation{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.logo i{ 
+    /* this is an icon font. see html code */
+    font-size: 30px;
+    color: black;
+    margin-top: 5px;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.navigation{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    /* class navigation was assigned to a ul element, which by difault has a margin */
+    /* the next line assigns a diferent margin value  */
+    margin-top: 5px;
+}
+
+.navigation a{
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+/* applying padding to direct children of ul element (li - flex-items)*/
+.navigation > *{
+    padding-right: 35px;
+    padding-top: 20px;
+    
+}
+
+.navigation li:hover{
+    text-decoration: underline;
+}
+
+
+
+/* message  */
+
+.message{
+    /* to centre h1 in the flex container  */
+    display: flex;
+
+    padding: 80px 40px 40px 40px;
+}
+
+.message h1{
+    margin: auto;
+    text-align: center;
+}
+
+
+/* form  */
+
+p {
+    /* making the paragraph elements flex containers  */
+    display: flex;
+}
+
+p *{
+    font-size: 15px;
+}
+
+.form-container{
+    display: flex;
+    padding: 40px;
+}
+
+form{
+    /* to keep form centered when changing viewport size  */
+    margin: auto;
+}
+
+label {
+    /* making all labels the same size to keep input fields aligned*/
+    width: 300px;
+}
+
+input, textarea{
+    width: 300px;
+}
+
+.button{
+    /* aligning button with begining of input elements */
+    padding-left: 300px;
+
+    width: 100px;
+}
+
+
+.form input:focus{
+    /* when an input field is selected, it's background color
+    changes to lightgray  */
+    background-color: lightgray;
+
+}
+
+@media screen and (max-width: 760px){
+    /* media query. up to 760px show form with elements
+    one beneath the other. flex direction changes to default -> raw
+    when viewport size is > 760px, showing label-input pairs one beside the other */
+    p{
+        flex-direction: column;
+    }
+
+    label{
+        padding-bottom: 10px;
+    }
+
+    .button{
+        padding-left: 0;
+    }
+
+    .button input{
+        padding-left: 0;
+        width: 100px;
+    }   
+}
+
+
+/* footer  */
+
+.footer {
+font-size: 14px;
+padding: 40px 80px 25px 80px;
+}

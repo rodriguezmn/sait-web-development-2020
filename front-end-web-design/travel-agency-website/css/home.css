@@ -1,0 +1,202 @@
+/* Travel Website home page
+Fictional company: Surff, Inc.
+Author: Marlon R.
+Date:  February 24, 2020 
+Front-end web development cprg210
+Individual HTML/CSS/Javascript Assignment*/
+
+
+body{
+    margin: 0;
+    background-color: #f8f8f8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* logo-navigation 
+A flexbox was used for the logo-navigation section
+space-between property keeps logo and navigation at oposite sides of the viewport*/
+
+.logo-navigation{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.logo i{ 
+    /* this is an icon font. see html code */
+    font-size: 30px;
+    color: white;
+    margin-top: 5px;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.navigation{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    /* class navigation was assigned to a ul element, which by difault has a margin */
+    /* the next line assigns a diferent margin value  */
+    margin-top: 5px;
+}
+
+.navigation a{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* applying padding to direct children of ul element (li - flex-items)*/
+.navigation > *{
+    padding-right: 35px;
+    padding-top: 20px;
+    
+}
+
+.navigation li:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
+/* main section  */
+
+.main-section{
+    /* all sections are enclosed in a flexbox container with column direction */
+    display: flex;
+    flex-direction: column;  
+}
+
+/* this is a hero page, with the hero image residing in a header tag. The hero image is 
+100% of the viewport height. the hero image was downloaded for free from https://unsplash.com/ 
+The hero section is also a flex container with column direction and contains the following flex items: 
+- a logo and naviation bar
+- a welcome message
+*/
+
+
+/* hero section */
+
+.hero-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* making the hero image 100% of the viewport height  */
+    min-height: 100vh;
+    /* Photo by C MA on Unsplash */
+    background-image: url(../images/c-ma-W5_6MH4tB8c-unsplash.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* welcome message  */
+
+.welcome-message{
+    /* welcome-message is a flex item and container */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.welcome-message * { 
+    margin: 0;
+    padding-left: 30px;
+    color: whitesmoke;
+}
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: center;
+    min-height: 150px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+/* margin:auto centers the info-section-1 div element as the page changes its size, 
+a max width assures the element keeps its size in larger viewports*/
+.info-section-1{
+    margin: auto;
+    max-width: 400px;  
+}
+
+.info-section-1 a{
+    text-decoration: underline;
+    color: black ;
+}
+
+.info-section-1 h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info-section-2{
+    padding: 80px 40px 10px 40px;
+}
+
+
+/* reference to create the grid used for the gallery was found at:
+https://codepen.io/d_coll/pen/mpoMJw 
+the responsiveness of the grid is obtained using media query*/
+
+.middle-section-gallery img {
+    /* the image is always 100 of the size of the grid container */
+    max-width: 100%;
+} 
+
+.middle-section-gallery{
+    display: grid;
+    /* for small screens:
+    repeat(1, 1fr)
+    create 1 column, with a sice of 1fr: one fraction unit, or the space available*/
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 35px;
+    padding: 10px 80px 80px 80px;
+}
+
+@media only screen and (min-width: 750px) {
+    /* intermediate screen size
+    create 2 columns */
+    .middle-section-gallery {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+  
+@media only screen and (min-width: 970px) {
+    /* bigger screens sizes
+    create 4 colums */
+    .middle-section-gallery {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+.content_img img{
+    border-radius: 5px;
+}
+
+.text1{
+    color: white;
+    background-color: gray;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 0.8;
+    visibility: hidden;
+    text-align: center;
+} 
+
+.content_img:hover div{
+    visibility: visible;
+}
+
+.footer {
+    font-size: 14px;
+    padding: 40px 80px 25px 80px;
+    
+}

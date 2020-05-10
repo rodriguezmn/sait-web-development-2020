@@ -1,0 +1,171 @@
+/* Travel Website home page
+Fictional company: Surff, Inc.
+Author: Marlon R.
+Date:  February 24, 2020 
+Front-end web development cprg210
+Individual HTML/CSS/Javascript Assignment*/
+
+
+body{
+    margin: 0;
+    background-color: #f8f8f8;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+/* logo-navigation 
+A flexbox was used for the logo-navigation section
+space-between property keeps logo and navigation at oposite sides of the viewport*/
+
+.logo-navigation{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.logo i{ 
+    /* this is an icon font. see html code */
+    font-size: 30px;
+    color: black;
+    margin-top: 5px;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.navigation{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    /* class navigation was assigned to a ul element, which by difault has a margin */
+    /* the next line assigns a diferent margin value  */
+    margin-top: 5px;
+}
+
+.navigation a{
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+/* applying padding to direct children of ul element (li - flex-items)*/
+.navigation > *{
+    padding-right: 35px;
+    padding-top: 20px;
+    
+}
+
+.navigation li:hover{
+    text-decoration: underline;
+}
+
+
+
+/* contact-message */
+
+.contact-message{
+    /* creating a flex container here to make h1 element float in the middle while the viewport changes width*/
+    display: flex;
+    padding: 80px 40px 40px 40px;
+}
+
+.contact-message h1{
+    /* making h1 float in the middle of container */
+    margin: auto;
+}
+
+
+
+/* team  */
+
+.team *{
+    font-size: 15px;     
+}
+
+.team{
+    display: flex;
+    /* contact info and map on top and team mebers underneath */
+    flex-direction: column;
+    /* adding marging to separate sections from the viewport border */
+    margin: 20px;
+}
+
+.contact{
+    /* contact section contains two flex items and floats in the center width wise of its container.
+    items wrap if there is not enough space to fit them horizontaly*/
+    display: flex;
+    justify-content:space-around;
+    /* next line allows responsiveness when the viewport is small, elements wrap when this happens */
+    flex-wrap: wrap;
+    margin: auto;
+    background-color:white;
+    border-radius: 20px;
+}
+
+.contact div{
+    /* adding padding to flex items to separate them */
+    padding: 20px;
+}
+
+.contact ul{
+    /* removing default padding and margin from ul element */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column
+}
+
+.contact li{
+    margin: 10px;
+}
+
+.map iframe{
+    border-radius: 10px;
+    /* making the map occupy al the available space in its container element */
+    height:100%;
+    width:100%;
+    border-style: none;
+}
+
+.email{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.email:hover{
+    text-decoration: underline;
+}
+
+.members{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.members div{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.members img{
+    /* reducing the size of the members' profile images while keeping its aspect ratio */
+    height: 180px;
+    width: auto;
+}
+
+.members p{
+    text-align: center;
+}
+
+
+/* footer  */
+
+.footer {
+    font-size: 14px;
+    padding: 40px 80px 25px 80px;
+}
