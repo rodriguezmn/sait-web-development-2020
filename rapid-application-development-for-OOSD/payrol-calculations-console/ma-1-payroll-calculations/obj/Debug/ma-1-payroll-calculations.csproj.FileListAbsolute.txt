@@ -1,0 +1,14 @@
+C:\Users\Marlon\Desktop\repos\rapid-application-development\assignments\major-assignment-1\ma-1-payroll-calculations\ma-1-payroll-calculations\bin\Debug\ma-1-payroll-calculations.exe.config
+C:\Users\Marlon\Desktop\repos\rapid-application-development\assignments\major-assignment-1\ma-1-payroll-calculations\ma-1-payroll-calculations\bin\Debug\ma-1-payroll-calculations.exe
+C:\Users\Marlon\Desktop\repos\rapid-application-development\assignments\major-assignment-1\ma-1-payroll-calculations\ma-1-payroll-calculations\bin\Debug\ma-1-payroll-calculations.pdb
+C:\Users\Marlon\Desktop\repos\rapid-application-development\assignments\major-assignment-1\ma-1-payroll-calculations\ma-1-payroll-calculations\obj\Debug\ma-1-payroll-calculations.csprojAssemblyReference.cache
+C:\Users\Marlon\Desktop\repos\rapid-application-development\assignments\major-assignment-1\ma-1-payroll-calculations\ma-1-payroll-calculations\obj\Debug\ma-1-payroll-calculations.csproj.CoreCompileInputs.cache
+C:\Users\Marlon\Desktop\repos\rapid-application-development\assignments\major-assignment-1\ma-1-payroll-calculations\ma-1-payroll-calculations\obj\Debug\ma-1-payroll-calculations.exe
+C:\Users\Marlon\Desktop\repos\rapid-application-development\assignments\major-assignment-1\ma-1-payroll-calculations\ma-1-payroll-calculations\obj\Debug\ma-1-payroll-calculations.pdb
+C:\Users\Marlon\Desktop\Assignment 1\ma-1-payroll-calculations\bin\Debug\ma-1-payroll-calculations.exe.config
+C:\Users\Marlon\Desktop\Assignment 1\ma-1-payroll-calculations\bin\Debug\ma-1-payroll-calculations.exe
+C:\Users\Marlon\Desktop\Assignment 1\ma-1-payroll-calculations\bin\Debug\ma-1-payroll-calculations.pdb
+C:\Users\Marlon\Desktop\Assignment 1\ma-1-payroll-calculations\obj\Debug\ma-1-payroll-calculations.csprojAssemblyReference.cache
+C:\Users\Marlon\Desktop\Assignment 1\ma-1-payroll-calculations\obj\Debug\ma-1-payroll-calculations.csproj.CoreCompileInputs.cache
+C:\Users\Marlon\Desktop\Assignment 1\ma-1-payroll-calculations\obj\Debug\ma-1-payroll-calculations.exe
+C:\Users\Marlon\Desktop\Assignment 1\ma-1-payroll-calculations\obj\Debug\ma-1-payroll-calculations.pdb
